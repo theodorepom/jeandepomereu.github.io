@@ -1,0 +1,400 @@
+html, body {
+    margin: 0% 0% 0% 0%;
+    height: 100%;
+    font-family: avenir; 
+}
+
+h1, h2 {
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* NAV MENU */
+
+.nav {  
+    width: 100%;
+    height: 16%;
+    z-index: 2;
+    top: 0;
+    background-color: white;
+}
+
+.logo_menu {
+    padding-top: 3px;
+}
+
+.logo_menu h1{
+    font-family: avenir;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.section_menu li{
+    display: inline-block;
+    font-size: 11px;
+    width: 20%;
+    margin: 0;
+    font-family: avenir;
+}
+
+.section_menu a {
+    color: white;
+}
+
+.section_menu h2 {
+    text-align: right;
+    margin-right: 1vh;
+    margin-top: 3vh;
+    margin-bottom: 0vh;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    font-family: avenir;
+    font-weight: 0;
+}
+.section_menu a:hover h2 {
+    margin-right: 3vh;
+}
+
+.section_menu div {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#portal_photography_section {
+    background-color: #224466;
+    min-height: auto;
+    max-height: auto;
+}
+
+#portal_editorial_section {
+    background-color: #66aacc;
+    min-height: auto;
+    max-height: auto;
+}
+
+#portal_research_section {
+    background-color: #558899;
+    min-height: auto;
+    max-height: auto;
+}
+
+#portal_news_section {
+    background-color: #9ad2ee;
+    min-height: auto;
+    max-height: auto;
+}
+
+#portal_about_section {
+    background-color: lightblue;
+    min-height: auto;
+    max-height: auto;
+}
+
+/* PORTAL index.html */
+
+.portal_section_menu {
+    height: auto;
+    width: 100%;
+    font-family: avenir;
+    margin-bottom: 0;
+    
+}
+
+.portal_section_menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.portal_section_menu a:hover h2{
+    margin-right: 5%;
+}
+
+#portal_logo {
+    padding: 0;
+    padding-bottom: 3px;
+}
+
+#portal_logo h1{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.portal_section_menu h2 {
+    font-size: 20px;
+    text-align: right;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+.portal_section {
+    padding-right: 2%;
+    padding-top: 4%;
+    padding-bottom: 0;
+    height: 20%;
+}
+
+
+
+/* PHOTOS photography/index.html */
+
+.main {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    text-align: center;
+    align-self: center;
+    width: 80%;
+}
+
+.main #PTG, #SCT, #SHK, #SN, #WI, #COS,#TOA,#FMS,#SAA {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    vertical-align: middle;
+    -webkit-background-size: 100%;
+    background-color: lightblue;
+}
+
+
+.main h2 {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    color: lightblue;
+    font-family: avenir;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.main #SN h2 {
+    margin-top: 0px;
+}
+
+.main #WI h2 {
+    margin-top: 0px;
+}
+
+.main #COS h2 {
+    margin-top: 0px;
+}
+
+.main #SAA h2 {
+    margin-top: 0px;
+}
+
+.main #TOA h2 {
+    margin-top: 0px;
+}
+
+.main #FMS h2 {
+    margin-top: 0px;
+}
+
+/*hover h2*/
+
+#PTG:hover h2, #SCT:hover h2, #SHK:hover h2, #SN:hover h2, #WI:hover h2, #COS:hover h2,#TOA:hover h2,#FMS:hover h2,#SAA:hover h2 {
+    opacity: 1;
+    color: white;
+}
+
+/* background images for divs*/
+#SN {
+    background-image: url("http://www.jeandepomereu.com/images/gal/sansnom/medium/01.jpg");
+}
+    
+#TOA {
+    background-image: url("http://www.jeandepomereu.com/images/gal/topography/medium/05.jpg");
+}
+
+#COS {
+    background-image: url("http://www.jeandepomereu.com/images/gal/silence/medium/01.jpg");
+}
+
+#FMS {
+    background-image: url("http://www.jeandepomereu.com/images/gal/frozen/medium/08.jpg");
+}
+
+#SAA {
+    background-image: url("http://www.jeandepomereu.com/images/gal/stellar/medium/12.jpg");
+    -webkit-background-size: auto;
+    background-position: center;
+}
+
+#WI {
+    background-image: url("http://www.jeandepomereu.com/images/gal/white/medium/WhiteIsland.jpg");
+}
+
+#PTG {
+    background-image: url(photo_files/ponting.jpg);
+    -webkit-background-size: auto;
+    background-position: center;
+}
+
+#SCT {
+    background-image: url(photo_files/scott.jpg);
+    -webkit-background-size: auto;
+    background-position: center;
+}
+
+#SHK {
+    background-image: url(photo_files/shakelton.jpg);
+    -webkit-background-size: auto;
+    background-position: center;
+}
+/*EDITIONS editions/index.html*/
+
+.main_editions {
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+}
+
+.main_editions #PTG, #SCT, #SHK {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    vertical-align: middle;
+    -webkit-background-size: 100%;
+    background-color: lightblue;
+}
+
+.main_editions h2 {
+    color: black;
+    font-family: avenir;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.main_editions #PTG h2 {
+    margin-top: 106px;
+}
+
+.main_editions #SCT h2 {
+    margin-top: 106px;
+}
+
+.main_editions #SHK h2 {
+    margin-top: 106px;
+}
+
+.intro_editions {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro_editions p {
+    text-align:justify;
+}
+
+/* ABOUT about.html*/
+
+.contact p{
+    font-family: avenir;
+}
+
+
+.bio {
+    width: 60%;
+    display: inline-block;
+    padding-right: 0;
+    margin-left: 2%;
+    margin-top: -30px;
+}
+
+.jdpcont {
+    font-family: avenir;
+    display: inline-block;
+    color: rgba(0,0,0,1);
+    height: auto;
+    width: 30%;
+    float: right;
+    margin-right: 5%;
+    margin-top: -30px;
+}
+
+.jdpcont p {
+    padding: 5% 5% 5% 5%;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.partners {
+    position: relative;
+    font-family: avenir;
+    padding-right: 5%;
+    float: right;
+
+    padding-left: 2%;
+    padding-bottom: 3%;
+}
+
+.at {
+    display: inline-block;
+    width: 60%;
+    padding-right: 5%;
+}
+
+.conts {
+    font-family: 'open sans', sans-serif;
+    display: inline-block;
+    color: rgba(0,0,0,1);
+    height: auto;
+    font-family: avenir;
+    width: 35%;
+    float: right;
+    margin-right: -25px;
+    margin-top: 90px;
+}
+
+.conts p {
+    padding: 5% 5% 5% 5%;
+    border: 1px solid black;
+    width: 92%;
+}
